@@ -55,6 +55,8 @@ class Employee
        }
 
 	    empInfo=empInformation(emp);
+		
+		System.out.println("Employee Name Is :"+empInfo.name);
 		System.out.println("Employee Name Is :"+empInfo.name);
 		System.out.println("Employee ID Is:"+empInfo.id);
 		System.out.println("Employee Salary Is:"+empInfo.sal);
